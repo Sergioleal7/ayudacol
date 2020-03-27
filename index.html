@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ayuda Colombia | Inicio</title>
+
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAd5hRvhiMTzk-iuWeQ6_s4lRluPAEJQE8",
+    authDomain: "ayudacol-78d2c.firebaseapp.com",
+    databaseURL: "https://ayudacol-78d2c.firebaseio.com",
+    projectId: "ayudacol-78d2c",
+    storageBucket: "ayudacol-78d2c.appspot.com",
+    messagingSenderId: "628549540016",
+    appId: "1:628549540016:web:614356781d0a0ebdfd0375",
+    measurementId: "G-VJTP2Y09YG"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+<!-- Firebase auth -->
+<script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-auth.js"></script>
+
+<!-- Firestore -->
+
+<script src="https://www.gstatic.com/firebasejs/6.6.2/firebase-firestore.js"></script>
+
+<!-- Favicon -->
+<link rel="icon" type="image/png" href="img/15.png" />
+
+<!--CSS File-->
+<link rel="stylesheet" href="css/styles.css">
+<!-- Bootsrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+<!-- Link to Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Baloo+2&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Baloo+2|Inter&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+<!-- Navbar -->
+
+
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light" id="navbar">
+    <a href=""> <img src="img/15.png" alt="" width="50px;"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+       <li class="nav-item active">
+        <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+      </li> 
+       <li class="nav-item active">
+        <a class="nav-link" href="ayudemos.html">Quiero ayudar<span class="sr-only">(current)</span></a>
+      </li> 
+       <li class="nav-item active">
+        <a class="nav-link" href="ayuda.html">Necesito ayuda<span class="sr-only">(current)</span></a>
+      </li> 
+      <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Ayuda profesional
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="medicos.html">Profesionales en salud</a>
+
+          </div>
+        </li> 
+        <li class="nav-item active">
+            <a class="nav-link" href="" data-toggle="modal" data-target="#staticBackdrop">Reportar problema<span class="sr-only"></span></a>
+        </li> 
+    </ul>
+  </div>
+</nav>
+  
+<!-- End of Navbar -->
+
+<!-- Main -->
+<main>
+
+
+
+<!-- Hero -->
+<section>
+
+<div class="hero container">
+  <div class="row ">
+    <div class="col first-top">
+      <br>
+      <br>
+      <h2 class="text-center">Ayudemos a todos.</h2>
+      <p>Ayuda Colombia 🇨🇴 es una iniciativa que conecta personas que quieren ayudar con personas que necesitan ayuda de todo tipo ante la crisis del COVID-19 en nuestro pais.</p>
+      <div class="text-center">
+            <a href="ayudemos.html"><button type="button" class="btn btn-primary btn-lg">Ayudar</button>    </a>
+      </div>
+
+    </div>
+    <div class="col-sm-6">
+      <div class="billboard text-center">
+          <img src="img/15.png" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+
+</section>
+<!-- End of Hero -->
+
+
+<section>
+<div class="brief">
+  <h2 class="text-center">¿Cómo funciona?</h2>
+  <div class="card-deck">
+      <div class="card">
+        <div class="text-center">
+            <img src="img/12.png" alt="">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title text-center">Ingresa a "quiero ayudar"</h5>
+          <p class="card-text">Ingresa a la seccion de ayuda para ver que ayudas hay disponibles.</p>
+        </div>
+      </div>
+      <div class="card ">
+        <div class="text-center">
+            <img src="img/11.png" alt="">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title text-center">Esccoge como quieres ayudar</h5>
+          <p class="card-text">Revisa el tipo de ayudas que se necesitan y escoge en la cual quieras ayuar.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="text-center">
+            <img src="img/13.png" alt="">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title text-center">Cotacta a la persona</h5>
+          <p class="card-text">Contacta a la persona a su numero y/o correo para que cuadren los detalles de la ayuda.</p>
+        </div>
+      </div>
+    </div>
+</div>
+</section>
+
+
+
+<section>
+  <div class="sell">
+    <div class="row">
+      <div class="col">
+          <div class="card text-center">
+              <div class="card-header">
+              </div>
+              <div class="card-body">
+                <h3>¿Estas buscando ayuda?</h3>
+                <p class="card">Si tienes alguna necesidad en estos momentos y quieres pedir ayuda a la comunidad, dale click al botón "ayuda" o ve a la sección "necesito ayuda"</p>
+                <br>
+                <a href="ayuda.html">  <button type="button" class="btn btn-primary btn-lg">Ayuda</button>  </a>
+              </div>
+            </div>
+      </div>
+      <div class="col">
+          <div class="card text-center">
+              <div class="card-header">
+              </div>
+              <div class="card-body">
+                <h3>¿Tienes alguna idea para implementar en la pagina?</h3>
+                <p class="card">Si tienes alguna idea para ayudar a la comunidad, escribenos!</p>
+                <br>
+                <a href="" data-toggle="modal" data-target="#exampleModal">  <button type="button" class="btn btn-primary btn-lg">Idea</button>  </a>
+              </div>
+            </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Ideas</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <form>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Nombre</label>
+                <input type="email" class="form-control" id="nombre" >
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Idea</label>
+                <textarea class="form-control" id="idea" rows="3"></textarea>
+              </div>
+            </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" onclick="guardar()">Enviar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  
+  <!-- Modal problema -->
+  <div class="modal fade" id="staticBackdrop" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content"> 
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">¿Has encontardo algun bug (error) en la página?</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <p>Reportalo para que pueda ser arreglado lo antes posible</p>
+            <form>
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">Email address</label>
+                  <input type="email" class="form-control" id="email2" placeholder="pepito@perez.com">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Problema</label>
+                  <textarea class="form-control" id="problema" rows="3"></textarea>
+                </div>
+              </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary" onclick="enviarProblema()">Enviar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<!-- sub-footer -->
+<section>
+    <div class="about-end">
+        <div class="row">
+          <div class="col text-center">
+            <h4>Navegación</h4>
+            <a href="ayudemos.html"><p>Quiero ayudar</p></a>
+            <a href="ayuda.html"><p>Necesito ayuda</p></a>
+            <a href="medico.html"><p>Médicos</p></a>
+            <a href="psicologo.html"><p>Psicólogos</p></a>
+          </div>
+          <div class="col text-center">
+            <h4>Privacidad</h4>
+            <a href=""><p>Politica de privacidad</p></a>
+            <a href=""><p>Terminos y condiciones</p></a>
+          </div>
+        </div>
+      </div>
+</section>
+
+<!-- End of sub-footer -->
+
+<!-- Footer -->
+<footer>
+    <div class="row">
+        <div class="col ">
+          <p class="text-center">Copyright Ayuda Colombia. Todos los derechos reservados. <br>
+          Desarrolado con ❤️ en 🇨🇴  </p>
+        </div>
+      </div>
+</footer>
+
+<!-- End of footer -->
+
+
+</main>
+<!-- End of Main -->
+  
+    
+
+<!-- Main js -->
+<script src="js/app.js"></script>
+  
+
+<!-- Bootsrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,463 @@
+/* Colors: 
+#2b580c
+#639a67
+#d8ebb5
+#d9bf77 */
+
+/* font: 
+ font-family: 'Baloo 2', cursive; */
+
+ body {
+    margin: 0;
+    font-family: 'Baloo 2', cursive;
+}
+
+h1 {
+    color: #1a3b8e;
+}
+/* Navbar */
+
+#navbarNav a{
+    margin-left: 20px;
+    font-family: 'Baloo 2', cursive;
+    color: #1a3b8e;
+}
+
+#navbarNav a:hover{ 
+    color: #cc172e;
+}
+
+.sticky-top {
+    border-bottom: 1px solid rgba(27,42, 73, 0.3);
+}
+
+@media only screen and (max-width: 300px) {
+ body {
+     margin: auto;
+ }
+}
+
+/* Hero */
+
+.hero {
+    width: 100%;
+    height: 100%;
+    padding: 100px  50px 0 50px;
+    font-family: 'Baloo 2', cursive;
+}
+
+.hero h2{
+    color: #1a3b8e;
+}
+
+.hero input {
+    border-radius: 20px;
+}
+
+.hero button {
+    background-color: #1a3b8e;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 60px 5px 60px;
+}
+
+.hero button:hover {
+    background-color: #cc172e;
+}
+
+
+.first-top{
+    margin: 0 50px 0 50px;
+}
+
+.billboard img {
+    width: 400px;
+}
+
+/* Media querie for mobie phone */
+@media only screen and (max-width: 480px) {
+    .hero {
+        padding-top: 0; 
+    }
+
+    .first-top{
+        margin: 0 20px 0 20px;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .hero p {
+        font-size: 14px;
+    }
+
+    .hero img {
+       width: 200px;
+       margin: 50px;
+    }
+   }
+
+/* Brief */
+
+.brief {
+  margin: 100px;
+  font-family: 'Baloo 2', cursive;
+ 
+}
+
+.brief h2 {
+    padding-top: 50px; 
+    color: #1a3b8e;
+}
+
+ .brief .card {
+     border: none;
+ }
+
+.card-deck {
+    padding-top: 50px; 
+}
+
+
+.card-deck img {
+    width: 100px;
+}
+
+
+@media only screen and (max-width: 480px) {
+
+    .brief {
+        margin: 50px;
+    }
+
+    .brief p {
+         font-size: 14px; 
+    }
+    
+}
+
+
+
+/* Sell */
+
+.sell {
+    margin: 100px;
+}
+
+.sell h3 {
+ font-family: 'Baloo 2', cursive;
+    color: #1a3b8e;
+}
+
+.sell .card{
+    border: none;
+}
+
+.sell .card-header {
+    border: none;
+}
+
+.sell img {
+    width: 100px;
+}
+
+.sell button {
+    background-color: #1a3b8e;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 60px 5px 60px;
+}
+
+.sell button:hover {
+    background-color: #cc172e;
+}
+
+.sell2 {
+    margin: 50px;
+    border: none;
+}
+
+@media only screen and (max-width: 480px) {
+    .sell {
+        margin: 0;
+    }
+
+    .sell h3 {
+        font-size: 20px;
+    }
+
+    .sell p {
+        font-size: 14px;
+    }
+}
+
+
+/* sub-footer */
+
+.sub-footer {
+    margin: 100px 100px 50px 100px;
+}
+
+.sub-footer h4{
+ font-family: 'Baloo 2', cursive;
+    color: #1a3b8e;
+}
+
+.sub-footer input {
+    border-radius: 20px;
+}
+
+.sub-footer button {
+    background-color: #00909e;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 60px 5px 60px;
+}
+
+.sub-footer button:hover {
+    background-color: #1a3b8e;
+}
+
+ .social-media {
+    padding-top: 20px;
+}
+
+.sub-footer img{
+    width: 30px;
+}
+
+@media only screen and (max-width: 480px) {
+    .sub-footer {
+        margin: 20px;
+    }
+
+    .sub-footer h4{
+        font-size: 20px;
+    }
+
+    .sub-footer p{
+        font-size: 14px;
+    }
+}
+
+/* about-end */
+
+.about-end {
+ font-family: 'Baloo 2', cursive;
+    padding: 20px 20px;
+    background-color: #1a3b8e;
+}
+
+.about-end h4{
+    color: #ffffffcb;
+}
+
+.about-end a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.about-end a:hover{
+    color: #212529;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .about-end {
+      margin: 5px;
+    }
+
+}
+/* footer */
+
+footer {
+    width: 100%;
+    height: 10vh;
+    background-color: #ffffff;
+    color: rgba(27,42, 73, 0.3);
+ font-family: 'Baloo 2', cursive; 
+    color: #212529
+}
+
+footer p {
+    padding-top: 10px;
+}
+
+
+
+/* PAGINA ayuemos.html */
+
+
+.hero-busca {
+        width: 100%;
+        height: 100%;
+        padding: 80px  50px 0 50px;
+     font-family: 'Baloo 2', cursive;
+
+}
+.hero-busca h2{
+        color: #1a3b8e;
+}
+
+.hero-busca img{
+    width: 300px;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .hero-busca {
+        padding: 0;
+        height: 50%;
+    }
+
+    .hero-busca img{
+        width: 200px;
+        padding-top: 20px;
+    }
+
+    .hero-busca h1 {
+        font-size: 30px;
+    }
+    .hero-busca h4 {
+        font-size: 20px;
+    }
+
+
+}
+/* fo
+
+
+/* why */
+
+.why  {
+ font-family: 'Baloo 2', cursive;
+    margin: 50px;
+}
+.why h2 {
+    color: #1a3b8e;
+}
+
+.why img {
+    width: 250px;
+}
+
+.why-us {
+    padding-top: 70px;
+}
+
+@media only screen and (max-width: 480px){
+    .why {
+        margin: 20px;
+    }
+}
+
+
+/* PAGINA VENDE.html */
+
+.contact-form {
+    margin: 50px;
+}
+
+.contact-form input {
+    border-radius: 20px;
+}
+
+.contact-form button {
+    background-color: #00909e;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 60px 5px 60px;
+
+}
+
+
+/* PAGINA CONTACTO.HTML */
+
+.form-contacto form {
+    margin: 50px;
+}
+
+.form-contacto input{
+    border-radius: 20px;
+}
+
+.card-group {
+    margin: 50px;
+}
+
+
+/* Carousel */
+
+.carousel {
+    margin: 50px 40px 0 40px;
+ font-family: 'Baloo 2', cursive;
+
+}
+
+.carousel h2, h3 {
+ font-family: 'Baloo 2', cursive;
+    color: #1a3b8e;
+    padding-top: 30px;
+}
+
+.description {
+    margin: 50px 0 0 50px;
+}
+
+
+.carousel img {
+    height: 60vh;
+    width: 50%;
+    object-fit: cover;
+}
+
+
+
+/* info */
+.info span {
+    color: #1a3b8e
+}
+
+.info button {
+    background-color: #1a3b8e;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 60px 5px 60px;
+}
+
+.info button:hover {
+    background-color: #465881;
+}
+
+/* map */
+
+
+/* Modal */
+
+.modal-body input{
+    border-radius: 20px;
+}
+
+.modal button {
+    background-color: #1a3b8e;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 20px 5px 20px;
+}
+
+.info button:hover {
+    background-color: #cc172e;
+}
+
+.cards h2 {
+    color: #1a3b8e;
+    font-family: 'Baloo 2', cursive;
+    
+}
+
+.hero-ayuda h2{
+    font-family: 'Baloo 2', cursive;
+    color: #1a3b8e;
+}
